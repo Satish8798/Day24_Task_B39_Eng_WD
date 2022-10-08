@@ -11,11 +11,10 @@ function App() {
     <div className="App">
       <Navigation cartCount={cartCount} />
       <Header/>
-      <ItemsList cartCount={cartCount} setCartCount={setCartCount}/>
+      <ItemsList cartCount={cartCount} setCartCount={setCartCount} />
       <Footer/>
     </div>
   );
 }
-
 
 export default App;
