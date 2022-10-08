@@ -9,7 +9,7 @@ export function Navigation({ cartCount }) {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            {/* <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 Home
               </li>
@@ -25,7 +25,7 @@ export function Navigation({ cartCount }) {
                   <li>New Arrivals</li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
             <button className="btn border border-dark"><i class="bi bi-cart-fill me-2"></i>Cart<span className="badge bg-dark text-white ms-1 rounded-pill">{cartCount}</span></button>
           </div>
         </div>
